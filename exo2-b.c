@@ -54,7 +54,7 @@ void displayComputerDetails(int computerId) {
             printf("Détails de l'ordinateur (ID : %d)\n", computers[i].id);
             printf("Nom : %s\n", computers[i].name);
             printf("Stock : %d\n", computers[i].stock);
-            printf("Prix : %.2f\n", computers[i].price);
+            printf("Prix : %.2f euros\n", computers[i].price);
             return;
         }
     }
